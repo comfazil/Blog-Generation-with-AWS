@@ -3,7 +3,7 @@
 This project demonstrates how to generate blogs using AI by integrating multiple AWS services, including Amazon Bedrock, AWS Lambda, Amazon API Gateway, and Amazon S3. The architecture leverages the "Llama 3-8B" foundational model from Bedrock to generate blog content based on given topics.
 
 ## Architecture Diagram
-![Architecture Diagram](./architecture diagram.png) <!-- Update with the correct path to your uploaded diagram -->
+![Architecture Diagram](./architecture-diagram.png) <!-- Update with the correct path to your uploaded diagram -->
 
 ## Project Steps
 
