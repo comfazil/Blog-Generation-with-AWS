@@ -37,7 +37,7 @@ Modify the Lambda function to store the generated blog content in an S3 bucket.
 ### Step 6: Observe CloudWatch Logs
 Monitor CloudWatch logs for detailed execution logs and troubleshooting information.
 ![CloudWatch logs](./log.png)
-[](./logs.png)
+![](./logs.png)
 
 
 ## Prerequisites
@@ -60,8 +60,8 @@ Monitor CloudWatch logs for detailed execution logs and troubleshooting informat
     "blogtopic": "Your Blog Topic"
 }
 - Send the request and verify the response.
-[](./postmantest2.png)
-[](./postman-test.png)
+![](./postmantest2.png)
+![](./postman-test.png)
 
 ## CloudWatch Logs
 Monitor the CloudWatch logs to ensure that the Lambda function executes correctly and for debugging purposes.
