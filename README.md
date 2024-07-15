@@ -57,9 +57,11 @@ Monitor CloudWatch logs for detailed execution logs and troubleshooting informat
 2- Set the request URL to your API Gateway endpoint.
 3- In the body, use JSON format to pass the blog topic:
 {
-    "topic": "Your Blog Topic"
+    "blogtopic": "Your Blog Topic"
 }
 4- Send the request and verify the response.
+[](./postmantest2.png)
+[](./postman-test.png)
 
 ## CloudWatch Logs
 Monitor the CloudWatch logs to ensure that the Lambda function executes correctly and for debugging purposes.
