@@ -16,7 +16,7 @@ Create a Lambda function that uses the Bedrock foundational model to generate bl
 
 ### Step 2: Create an API with POST Method
 Using Amazon API Gateway, create an API with a POST method that will trigger the Lambda function.
-[](./api-integration.png)
+[API-Integration with Lambda](./api-integration.png)
 
 
 ### Step 3: Integrate the API with Lambda Function
@@ -31,12 +31,12 @@ Use POSTMAN to send POST requests to the API endpoint and verify that the Lambda
 
 ### Step 5: Store the Generated Blog in an S3 Bucket
 Modify the Lambda function to store the generated blog content in an S3 bucket.
-[](./S3output.png)
+![S3 output](./S3output.png)
 
 
 ### Step 6: Observe CloudWatch Logs
 Monitor CloudWatch logs for detailed execution logs and troubleshooting information.
-[](./log.png)
+![CloudWatch logs](./log.png)
 [](./logs.png)
 
 
