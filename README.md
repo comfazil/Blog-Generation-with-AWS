@@ -47,19 +47,19 @@ Monitor CloudWatch logs for detailed execution logs and troubleshooting informat
 - Postman for API testing
 
 ## API Configuration
-1- Create a new REST API in API Gateway.
-2- Add a POST method to the root resource.
-3- Set the Integration type to Lambda Function and select the Lambda function created earlier.
-4- Deploy the API to a stage.
+- Create a new REST API in API Gateway.
+- Add a POST method to the root resource.
+- Set the Integration type to Lambda Function and select the Lambda function created earlier.
+- Deploy the API to a stage.
 
 ## Testing with Postman
-1- Open Postman and create a new POST request.
-2- Set the request URL to your API Gateway endpoint.
-3- In the body, use JSON format to pass the blog topic:
+- Open Postman and create a new POST request.
+- Set the request URL to your API Gateway endpoint.
+- In the body, use JSON format to pass the blog topic:
 {
     "blogtopic": "Your Blog Topic"
 }
-4- Send the request and verify the response.
+- Send the request and verify the response.
 [](./postmantest2.png)
 [](./postman-test.png)
 
